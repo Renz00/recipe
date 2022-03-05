@@ -6,7 +6,7 @@ import vuetify from './plugins/vuetify'
 import axios from 'axios'
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'https://recipe-site-api.000webhostapp.com/api'
+axios.defaults.baseURL = 'http://recipe-site-api.atwebpages.com/api'
 
 new Vue({
   router,
